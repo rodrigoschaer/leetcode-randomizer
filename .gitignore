@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+
+
+# builds
+dist
+
+# debug
+npm-debug.log*
+
+# testing
+/coverage
+
+# editor directories and files
+.idea
+.vscode
+
+# others
+.DS_Store

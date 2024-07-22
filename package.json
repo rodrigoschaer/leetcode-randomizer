@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "leetcode-randomizer",
+  "version": "1.0.0",
+  "description": "Gets random quetions from a leetcode study plan",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigoschaer/leetcode-randomizer/"
+  },
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "rodrigoschaer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rodrigoschaer/leetcode-randomizer/issues"
+  },
+  "homepage": "https://github.com/rodrigoschaer/leetcode-randomizer#readme",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "clipboardy": "^4.0.0"
+  }
+}
