@@ -1,4 +1,4 @@
-import studyPlanDetail from "./study-plan-detail.json" assert { type: "json" };
-import studyPlanProgress from "./study-plan-progress.json" assert { type: "json" };
+import studyPlanDetail from "./study-plan-detail.json";
+import studyPlanProgress from "./study-plan-progress.json";
 
 export { studyPlanDetail, studyPlanProgress };

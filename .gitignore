@@ -1,7 +1,6 @@
 # dependencies
 node_modules
 
-
 # builds
 dist
 
@@ -17,3 +16,5 @@ npm-debug.log*
 
 # others
 .DS_Store
+
+**.json

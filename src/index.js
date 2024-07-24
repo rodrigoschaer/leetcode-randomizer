@@ -1,4 +1,4 @@
-import { studyPlanDetail, studyPlanProgress } from "./src/assets/index.js";
+import { studyPlanDetail, studyPlanProgress } from "./assets/index.js";
 import clipboardy from "clipboardy";
 
 function retrieveQuestions(studyPlan) {
@@ -79,7 +79,14 @@ function randomizer(questionsList) {
   });
   clipboardy.writeSync(output);
 
-  console.log("%% WINDOWS ADDED TO CLIPBOARD %%");
+  console.log(
+    `%% ${
+      EASY_QUESTIONS + MEDIUM_QUESTIONS + HARD_QUESTIONS
+    } WINDOWS ADDED TO CLIPBOARD %%`
+  );
+  console.log(
+    `${EASY_QUESTIONS} Easy, ${MEDIUM_QUESTIONS} Medium, ${HARD_QUESTIONS} Hard`
+  );
 
   return randomized;
 }
