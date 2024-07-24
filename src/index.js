@@ -1,7 +1,13 @@
 import { studyPlanProgress } from "./assets/index.js";
 import { LeetcodeRandomizer } from "./randomizer.js";
 
-let randomizer = new LeetcodeRandomizer();
+function initialize() {
+  let lcr = new LeetcodeRandomizer();
+
+  return { randomizer: lcr };
+}
+
+let { randomizer } = initialize();
 
 randomizer.questions =
   studyPlanProgress.data.studyPlanV2ProgressDetail.studyPlanDetail.planSubGroups;
