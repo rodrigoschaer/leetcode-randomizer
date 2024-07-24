@@ -21,16 +21,24 @@
   },
   "homepage": "https://github.com/rodrigoschaer/leetcode-randomizer#readme",
   "scripts": {
-    "build": "babel src --out-dir dist && cpx src/assets/*.json dist/assets",
-    "start": "node dist/index.js"
+    "build": "babel src --out-dir dist",
+    "start": "node dist/index.js",
+    "lint": "eslint 'src/**/*.js'",
+    "lint:fix": "eslint 'src/**/*.js' --fix"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/plugin-syntax-json-strings": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "babel-plugin-inline-json-import": "^0.3.2",
-    "cpx": "^1.5.0"
+    "@babel/cli": "7.24.8",
+    "@babel/core": "7.24.9",
+    "@babel/eslint-parser": "7.24.8",
+    "@babel/plugin-syntax-json-strings": "7.8.3",
+    "@babel/preset-env": "7.24.8",
+    "@eslint/compat": "^1.1.1",
+    "@eslint/js": "9.7.0",
+    "babel-plugin-inline-json-import": "0.3.2",
+    "eslint": "9.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "globals": "15.8.0"
   },
   "dependencies": {
     "clipboardy": "^4.0.0"

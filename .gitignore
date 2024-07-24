@@ -17,4 +17,4 @@ npm-debug.log*
 # others
 .DS_Store
 
-**.json
+src/assets/**.json
