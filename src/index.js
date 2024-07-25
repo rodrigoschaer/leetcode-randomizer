@@ -1,15 +1,16 @@
-import { studyPlanProgress } from "./assets/index.js";
-import { LeetcodeRandomizer } from "./randomizer.js";
+import { adaptedProgress } from './assets/index.js';
+import { LeetcodeRandomizer } from './model/LeetcodeRandomizer.js';
 
 function initialize() {
-  let lcr = new LeetcodeRandomizer();
+  const lcr = new LeetcodeRandomizer();
 
   return { randomizer: lcr };
 }
 
-let { randomizer } = initialize();
+const { randomizer } = initialize();
+randomizer.questions = adaptedProgress;
 
-randomizer.questions =
-  studyPlanProgress.data.studyPlanV2ProgressDetail.studyPlanDetail.planSubGroups;
-
-randomizer.randomize({ easy: 6, medium: 14, hard: 0 });
+const easy = 6;
+const medium = 14;
+const hard = 0;
+randomizer.randomize(easy, medium, hard);
