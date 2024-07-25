@@ -9,6 +9,13 @@
   ],
   "plugins": [
     "babel-plugin-inline-json-import",
-    "@babel/plugin-syntax-json-strings"
+    "@babel/plugin-syntax-json-strings",
+    [
+      "babel-plugin-module-resolver",
+      {
+        "root": ["./src"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ]
   ]
 }
