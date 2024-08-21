@@ -28,6 +28,16 @@ export class LeetcodeRandomizer {
     );
   }
 
+  // TODO: define a print priority
+  printQuestions() {
+    const easyList = this._questions.filter((qst) => qst.difficulty === 'EASY');
+    const mediumList = this._questions.filter(
+      (qst) => qst.difficulty === 'MEDIUM',
+    );
+    const hardList = this._questions.filter((qst) => qst.difficulty === 'HARD');
+    console.log({ questions: [...easyList, ...mediumList, ...hardList] });
+  }
+
   randomize(easy, medium, hard) {
     const todo = this.missingQuestions;
 
