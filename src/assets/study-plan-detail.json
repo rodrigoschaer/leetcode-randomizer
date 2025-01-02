@@ -1,0 +1,553 @@
+{
+  "data": {
+    "studyPlanV2Detail": {
+      "slug": "top-interview-150",
+      "name": "Top Interview 150",
+      "highlight": "Must-do List for Interview Prep",
+      "staticCoverPicture": "https://assets.leetcode.com/static_assets/others/Top_Interview_150_static_cover_picture.png",
+      "colorPalette": "blue",
+      "threeDimensionUrl": "https://prod.spline.design/HWvf2Gtyqrop-tjb/scene.splinecode",
+      "description": "150 Original & Classic Questions\r\nCovers comprehensive interview topics\r\nBest for 3+ months of prep time\r\nProblems support high-quality editorials",
+      "premiumOnly": false,
+      "needShowTags": false,
+      "awardDescription": "Complete the study plan to win the badge!",
+      "defaultLanguage": null,
+      "planSubGroups": [
+        {
+          "questions": [
+            {
+              "titleSlug": "valid-palindrome",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "string",
+                  "name": "String"
+                }
+              ]
+            },
+            {
+              "titleSlug": "container-with-most-water",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "array",
+                  "name": "Array"
+                }
+              ]
+            },
+            {
+              "titleSlug": "3sum",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "array",
+                  "name": "Array"
+                }
+              ]
+            },
+            {
+              "titleSlug": "longest-substring-without-repeating-characters",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "string",
+                  "name": "String"
+                }
+              ]
+            },
+            {
+              "titleSlug": "minimum-window-substring",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "string",
+                  "name": "String"
+                }
+              ]
+            },
+            {
+              "titleSlug": "longest-repeating-character-replacement",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "string",
+                  "name": "String"
+                }
+              ]
+            },
+            {
+              "titleSlug": "range-sum-query-immutable",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "array",
+                  "name": "Array"
+                }
+              ]
+            },
+            {
+              "titleSlug": "subarray-sum-equals-k",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "array",
+                  "name": "Array"
+                }
+              ]
+            },
+            {
+              "titleSlug": "range-sum-query-mutable",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "array",
+                  "name": "Array"
+                }
+              ]
+            },
+            {
+              "titleSlug": "linked-list-cycle",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "linked-list",
+                  "name": "Linked List"
+                }
+              ]
+            },
+            {
+              "titleSlug": "linked-list-cycle-ii",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "linked-list",
+                  "name": "Linked List"
+                }
+              ]
+            },
+            {
+              "titleSlug": "palindrome-linked-list",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "linked-list",
+                  "name": "Linked List"
+                }
+              ]
+            },
+            {
+              "titleSlug": "merge-two-sorted-lists",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "linked-list",
+                  "name": "Linked List"
+                }
+              ]
+            },
+            {
+              "titleSlug": "merge-k-sorted-lists",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "linked-list",
+                  "name": "Linked List"
+                }
+              ]
+            },
+            {
+              "titleSlug": "sort-list",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "linked-list",
+                  "name": "Linked List"
+                }
+              ]
+            },
+            {
+              "titleSlug": "valid-parentheses",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "stack",
+                  "name": "Stack"
+                }
+              ]
+            },
+            {
+              "titleSlug": "generate-parentheses",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "backtracking",
+                  "name": "Backtracking"
+                }
+              ]
+            },
+            {
+              "titleSlug": "longest-valid-parentheses",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "stack",
+                  "name": "Stack"
+                }
+              ]
+            },
+            {
+              "titleSlug": "next-greater-element-i",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "stack",
+                  "name": "Stack"
+                }
+              ]
+            },
+            {
+              "titleSlug": "next-greater-element-ii",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "stack",
+                  "name": "Stack"
+                }
+              ]
+            },
+            {
+              "titleSlug": "daily-temperatures",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "stack",
+                  "name": "Stack"
+                }
+              ]
+            },
+            {
+              "titleSlug": "binary-tree-inorder-traversal",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "tree",
+                  "name": "Tree"
+                }
+              ]
+            },
+            {
+              "titleSlug": "binary-tree-preorder-traversal",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "tree",
+                  "name": "Tree"
+                }
+              ]
+            },
+            {
+              "titleSlug": "binary-tree-postorder-traversal",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "tree",
+                  "name": "Tree"
+                }
+              ]
+            },
+            {
+              "titleSlug": "lowest-common-ancestor-of-a-binary-search-tree",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "tree",
+                  "name": "Tree"
+                }
+              ]
+            },
+            {
+              "titleSlug": "lowest-common-ancestor-of-a-binary-tree",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "tree",
+                  "name": "Tree"
+                }
+              ]
+            },
+            {
+              "titleSlug": "binary-tree-maximum-path-sum",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "tree",
+                  "name": "Tree"
+                }
+              ]
+            },
+            {
+              "titleSlug": "number-of-islands",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "graph",
+                  "name": "Graph"
+                }
+              ]
+            },
+            {
+              "titleSlug": "course-schedule",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "graph",
+                  "name": "Graph"
+                }
+              ]
+            },
+            {
+              "titleSlug": "word-ladder",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "graph",
+                  "name": "Graph"
+                }
+              ]
+            },
+            {
+              "titleSlug": "shortest-path-in-binary-matrix",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "graph",
+                  "name": "Graph"
+                }
+              ]
+            },
+            {
+              "titleSlug": "network-delay-time",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "graph",
+                  "name": "Graph"
+                }
+              ]
+            },
+            {
+              "titleSlug": "find-the-shortest-superstring",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "graph",
+                  "name": "Graph"
+                }
+              ]
+            },
+            {
+              "titleSlug": "kth-largest-element-in-an-array",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "heap",
+                  "name": "Heap"
+                }
+              ]
+            },
+            {
+              "titleSlug": "top-k-frequent-elements",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "heap",
+                  "name": "Heap"
+                }
+              ]
+            },
+            {
+              "titleSlug": "merge-k-sorted-lists",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "heap",
+                  "name": "Heap"
+                }
+              ]
+            },
+            {
+              "titleSlug": "two-sum",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "hash-table",
+                  "name": "Hash Table"
+                }
+              ]
+            },
+            {
+              "titleSlug": "group-anagrams",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "hash-table",
+                  "name": "Hash Table"
+                }
+              ]
+            },
+            {
+              "titleSlug": "longest-consecutive-sequence",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "hash-table",
+                  "name": "Hash Table"
+                }
+              ]
+            },
+            {
+              "titleSlug": "implement-trie-prefix-tree",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "trie",
+                  "name": "Trie"
+                }
+              ]
+            },
+            {
+              "titleSlug": "add-and-search-word-data-structure-design",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "trie",
+                  "name": "Trie"
+                }
+              ]
+            },
+            {
+              "titleSlug": "replace-words",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "trie",
+                  "name": "Trie"
+                }
+              ]
+            },
+            {
+              "titleSlug": "climbing-stairs",
+              "difficulty": "EASY",
+              "topicTags": [
+                {
+                  "slug": "dynamic-programming",
+                  "name": "Dynamic Programming"
+                }
+              ]
+            },
+            {
+              "titleSlug": "longest-common-subsequence",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "dynamic-programming",
+                  "name": "Dynamic Programming"
+                }
+              ]
+            },
+            {
+              "titleSlug": "edit-distance",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "dynamic-programming",
+                  "name": "Dynamic Programming"
+                }
+              ]
+            },
+            {
+              "titleSlug": "maximum-number-of-non-overlapping-subarrays-with-sum-equal-to-target",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "greedy",
+                  "name": "Greedy"
+                }
+              ]
+            },
+            {
+              "titleSlug": "jump-game-ii",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "greedy",
+                  "name": "Greedy"
+                }
+              ]
+            },
+            {
+              "titleSlug": "gas-station",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "greedy",
+                  "name": "Greedy"
+                }
+              ]
+            },
+            {
+              "titleSlug": "n-queens",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "backtracking",
+                  "name": "Backtracking"
+                }
+              ]
+            },
+            {
+              "titleSlug": "sudoku-solver",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "backtracking",
+                  "name": "Backtracking"
+                }
+              ]
+            },
+            {
+              "titleSlug": "combination-sum",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "backtracking",
+                  "name": "Backtracking"
+                }
+              ]
+            },
+            {
+              "titleSlug": "sort-an-array",
+              "difficulty": "MEDIUM",
+              "topicTags": [
+                {
+                  "slug": "sorting",
+                  "name": "Sorting"
+                }
+              ]
+            },
+            {
+              "titleSlug": "count-of-smaller-numbers-after-self",
+              "difficulty": "HARD",
+              "topicTags": [
+                {
+                  "slug": "sorting",
+                  "name": "Sorting"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
