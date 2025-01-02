@@ -40,10 +40,16 @@ export class LeetcodeRandomizer {
     console.log(` - Medium: ${mediumList.length},`);
     console.log(` - Hard: ${hardList.length},`);
 
+    const randomsMap = {
+      easy: this.#getRandom(easyList, easy),
+      medium: this.#getRandom(mediumList, medium),
+      hard: this.#getRandom(hardList, hard),
+    };
+
     const randomized = [
-      ...this.#getRandom(easyList, easy),
-      ...this.#getRandom(mediumList, medium),
-      ...this.#getRandom(hardList, hard),
+      ...randomsMap.hard,
+      ...randomsMap.medium,
+      ...randomsMap.easy,
     ];
 
     const urls = randomized.map(

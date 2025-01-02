@@ -12,3 +12,4 @@
 - [ ] - A browser extension intercepting requests for leetcode list and suggest the randomizer
 - [ ] - Create a website to manage lists better than leetcode
 - [ ] - Generate this random questions on the web
+- [ ] - Rewrite in Go
